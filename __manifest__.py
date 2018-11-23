@@ -1,17 +1,16 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "legal_m",
+    'name': "Módulo Legal",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Módulo Legal del ODOO""",
 
     'description': """
-        Long description of module's purpose
+        Módulo Legal del ODOO
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Grupo 5",
+    'website': "sistemas.unmsm.edu.pe",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/12.0/odoo/addons/base/data/ir_module_category_data.xml
@@ -27,9 +26,11 @@
         # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
+        'views/reportequeja_view.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
     ],
+    'application': True,
 }

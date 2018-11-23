@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<odoo>
+	<record id="reporte_queja_form_view_inherit" model="ir.ui.view">
+		<field name="name">reporte.queja.form.view.inherit</field>
+		<field name="model">reporte.queja</field>
+		<field name="inherit_id" ref="call_center.reporte_queja_form_view"/>
+		<field name="arch" type="xml">
+			<field name="descripcion" position="after">
+				<field name="tomado"/>
+			</field>
+		</field>
+	</record>
+</odoo>
