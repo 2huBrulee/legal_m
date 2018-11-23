@@ -5,6 +5,7 @@
 		<field name="model">reporte.queja</field>
 		<field name="inherit_id" ref="call_center.reporte_queja_tree_view"/>
 		<field name="arch" type="xml">
+                <field name="mode">primary</field>
             <xpath expr="//field[@name='telefono']" position="replace">
             </xpath>
 		</field>
