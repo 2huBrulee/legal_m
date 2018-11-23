@@ -20,7 +20,7 @@
                                                 <field name="id"></field>
                                                 <field name="tipo"></field>
                                                 <field name="nombres"></field>
-                                                <field name="descripcion"></field>
+                                                <field name="direccion"></field>
                                         </group>
                                 </sheet>
                         </form>
