@@ -1,23 +1,5 @@
 <?xml version="1.0"?>
 <odoo>
-        <record id="legal_m_queja_form_view" model="ir.ui.view">
-                <field name="name">legal_m.queja.form.view</field>
-                <field name="model">reporte.queja</field>
-                <field name="arch" type="xml">
-                        <form string="Form LQueja">
-                                <sheet>
-                                        <group>
-                                                <field name="id"></field>
-                                                <field name="tipo"></field>
-                                                <field name="nombres"></field>
-                                                <field name="direccion"></field>
-                                        </group>
-                                </sheet>
-                        </form>
-                </field>
-        </record>
-
-
         <record id="legal_m_queja_tree_view" model="ir.ui.view">
                 <field name="name">legal_m.queja.tree.view</field>
                 <field name="model">reporte.queja</field>
@@ -31,9 +13,9 @@
         </record>
 
         <act_window id="action_legal_queja"
-                name="Modulo Call Center"
+                name="Modulo Legal"
                 res_model="reporte.queja"
-                view_mode="tree,form"
+                view_mode="tree,"
                 />
 
         <menuitem id="legal_menu_root" name="Legal" sequence="1"></menuitem>
