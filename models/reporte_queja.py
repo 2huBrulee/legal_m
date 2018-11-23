@@ -2,7 +2,7 @@
 
 from odoo import models, fields, api
 
-class ReporteQueja(models.Model):
+class ReporteQuejas(models.Model):
 	_inherit = 'reporte.queja'
 
-	tomado = fields.Text()
+	tomado = fields.Char(string='Tomado', size=64)
