@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_legal_m_legal_m,legal_m.legal_m,model_legal_m_legal_m,,1,0,0,0
