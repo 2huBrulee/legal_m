@@ -9,16 +9,18 @@
                 <field name="tomado"/>
             </xpath>
 		</field>
+	</record>
 
         <record id="legal_m_queja_tree_view" model="ir.ui.view">
                 <field name="name">legal_m.queja.tree.view</field>
                 <field name="model">reporte.queja</field>
                 <field name="arch" type="xml">
                         <tree string="Tree Queja">
-                                <field name="nombres"></field>
-                                <field name="email"></field>
-                                <field name="estado"></field>
-                                <field name="descripcion"></field>
+                                <field name="id"></field>
+                                                <field name="nombres"></field>
+                                                <field name="estado"></field>
+                                                <field name="descripcion"></field>
+                                                <field name="tomado"></field>
                         </tree>
                 </field>
         </record>
