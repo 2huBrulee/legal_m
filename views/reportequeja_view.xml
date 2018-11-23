@@ -17,7 +17,17 @@
                 </field>
         </record>
 
-        
+        <record id="legal_m_queja_filter_view" model="ir.ui.view">
+            <field name="name">legal_m.queja.filter.view</field>
+            <field name="model">reporte.queja</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="nombres"/>
+                    <filter string="Legal"
+                        domain="[('tipo','=','LEGAL')]"/>
+                </search>
+            </field>
+        </record>
 
         <record id="legal_m_queja_tree_view" model="ir.ui.view">
                 <field name="name">legal_m.queja.tree.view</field>
