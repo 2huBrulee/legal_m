@@ -5,7 +5,9 @@
 		<field name="model">reporte.queja</field>
 		<field name="inherit_id" ref="call_center.reporte_queja_form_view"/>
 		<field name="arch" type="xml">
-				<field name="tomado"/>
+            <xpath expr="//field[@name='descripcion']" position="after">
+                <field name="tomado"/>
+            </xpath>
 		</field>
 	</record>
 </odoo>
