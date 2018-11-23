@@ -4,7 +4,7 @@
                 <field name="name">legal_m.queja.form.view</field>
                 <field name="model">reporte.queja</field>
                 <field name="arch" type="xml">
-                        <form string="Form Queja">
+                        <form string="Form LQueja">
                                 <sheet>
                                         <group>
                                                 <field name="id"></field>
@@ -22,7 +22,7 @@
                 <field name="name">legal_m.queja.tree.view</field>
                 <field name="model">reporte.queja</field>
                 <field name="arch" type="xml">
-                        <tree string="Tree Queja">
+                        <tree string="Tree LQueja">
                                 <field name="nombres"></field>
                                 <field name="estado"></field>
                                 <field name="email"></field>
