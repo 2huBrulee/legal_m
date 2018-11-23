@@ -26,7 +26,7 @@
         # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
-        'views/reportequeja_view.xml',
+        'views/legal_m_queja_view.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
