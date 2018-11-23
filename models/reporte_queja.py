@@ -5,4 +5,4 @@ from odoo import models, fields, api
 class ReporteQuejaInherited(models.Model):
 	_inherit = 'reporte.queja'
 
-	tomado = fields.Char(string='Tomado', size=64)
+	tomado = fields.Char(string='tomado', size=64)
