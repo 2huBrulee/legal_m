@@ -9,22 +9,6 @@
                 <field name="tomado"/>
             </xpath>
 		</field>
-	</record>
-        <record id="legal_m_queja_form_view" model="ir.ui.view">
-                <field name="name">legal_m.queja.form.view</field>
-                <field name="model">reporte.queja</field>
-                <field name="arch" type="xml">
-                        <form string="Form Queja">
-                                <sheet>
-                                        <group>
-                                                <field name="id"></field>
-                                                <field name="nombres"></field>
-                                                <field name="direccion"></field>
-                                        </group>
-                                </sheet>
-                        </form>
-                </field>
-        </record>
 
         <record id="legal_m_queja_tree_view" model="ir.ui.view">
                 <field name="name">legal_m.queja.tree.view</field>
@@ -33,6 +17,9 @@
                         <tree string="Tree Queja">
                                 <field name="nombres"></field>
                                 <field name="email"></field>
+                                <field name="estado"></field>
+                                <field name="descripcion"></field>
+                                <field name="tomado"></field>
                         </tree>
                 </field>
         </record>
@@ -40,7 +27,7 @@
         <act_window id="action_legal_queja"
                 name="Modulo Call Center"
                 res_model="reporte.queja"
-                view_mode="tree,form"
+                view_mode="tree"
                 />
 
         <menuitem id="legal_menu_root" name="Legal" sequence="1"></menuitem>
