@@ -3,7 +3,7 @@
 	<record id="legal_m_queja_form_view_inherit" model="ir.ui.view">
 		<field name="name">legal_m.queja.form.view.inherited</field>
 		<field name="model">reporte.queja</field>
-		<field name="inherit_id" ref="call_center.reporte_queja_form_view"/>
+		<field name="inherit_id" ref="call_center.reporte_queja_view"/>
 		<field name="arch" type="xml">
             <xpath expr="//field[@name='telefono']" position="replace">
             </xpath>
