@@ -30,16 +30,7 @@
                 </field>
         </record>
 
-        <record id="legal_m_queja_tree_view" model="ir.ui.view">
-                <field name="name">legal_m.queja.tree.view</field>
-                <field name="model">reporte.queja</field>
-                <field name="arch" type="xml">
-                        <tree string="Tree Queja">
-                                <field name="nombres"></field>
-                                <field name="email"></field>
-                        </tree>
-                </field>
-        </record>
+
 
         <act_window id="action_legal_m_queja"
                 name="Modulo Call Center"
