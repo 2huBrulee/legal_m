@@ -4,8 +4,8 @@
 		<field name="name">legal_m.queja.form.view.inherited</field>
 		<field name="model">reporte.queja</field>
 		<field name="inherit_id" ref="call_center.reporte_queja_tree_view"/>
-		<field name="arch" type="xml">
                 <field name="mode">primary</field>
+		<field name="arch" type="xml">
             <xpath expr="//field[@name='telefono']" position="replace">
             </xpath>
 		</field>
