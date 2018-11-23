@@ -19,7 +19,6 @@
                                 <field name="email"></field>
                                 <field name="estado"></field>
                                 <field name="descripcion"></field>
-                                <field name="tomado"></field>
                         </tree>
                 </field>
         </record>
