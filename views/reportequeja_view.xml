@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <odoo>
-	<record id="reporte_queja_form_view_inherit" model="ir.ui.view">
-		<field name="name">reporte.queja.form.view.inherited</field>
+	<record id="legal_m_queja_form_view_inherit" model="ir.ui.view">
+		<field name="name">legal_m.queja.form.view.inherited</field>
 		<field name="model">reporte.queja</field>
 		<field name="inherit_id" ref="call_center.reporte_queja_form_view"/>
 		<field name="arch" type="xml">
@@ -9,8 +9,8 @@
             </xpath>
 		</field>
 	</record>
-        <record id="reporte_queja_form_view" model="ir.ui.view">
-                <field name="name">reporte.queja.form.view</field>
+        <record id="legal_m_queja_form_view" model="ir.ui.view">
+                <field name="name">legal_m.queja.form.view</field>
                 <field name="model">reporte.queja</field>
                 <field name="arch" type="xml">
                         <form string="Form Queja">
@@ -30,8 +30,8 @@
                 </field>
         </record>
 
-        <record id="reporte_queja_tree_view" model="ir.ui.view">
-                <field name="name">reporte.queja.tree.view</field>
+        <record id="legal_m_queja_tree_view" model="ir.ui.view">
+                <field name="name">legal_m.queja.tree.view</field>
                 <field name="model">reporte.queja</field>
                 <field name="arch" type="xml">
                         <tree string="Tree Queja">
@@ -41,14 +41,14 @@
                 </field>
         </record>
 
-        <act_window id="action_reporte_queja"
+        <act_window id="action_legal_m_queja"
                 name="Modulo Call Center"
                 res_model="reporte.queja"
                 view_mode="tree,form"
                 />
 
-        <menuitem id="reporte_menu_root" name="Call Center" sequence="1"></menuitem>
-        <menuitem id="reporte_queja_menu_category" name="Reportes" sequence="1" parent="reporte_menu_root"></menuitem>
-        <menuitem id="action_reporte_queja_menu" name="Quejas" sequence="1" parent="reporte_queja_menu_category" action="action_reporte_queja"></menuitem>
+        <menuitem id="legal_m_menu_root" name="Legal" sequence="1"></menuitem>
+        <menuitem id="legal_m_queja_menu_category" name="Revision" sequence="1" parent="legal_m_menu_root"></menuitem>
+        <menuitem id="action_legal_m_queja_menu" name="Quejas" sequence="1" parent="legal_m_queja_menu_category" action="action_legal_m_queja"></menuitem>
 
 </odoo>
